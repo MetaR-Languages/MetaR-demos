@@ -1,2 +1,2 @@
-![DiffExp](DiffExp.png){:height="60%" width="60%"}
+![DiffExp](DiffExpression.png){:height="60%" width="60%"}
 
