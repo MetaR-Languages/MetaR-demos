@@ -844,18 +844,10 @@
         <property role="1MXi1$" value="DBEGHVLIAY" />
         <property role="165MX6" value="6" />
         <property role="165MyL" value="4" />
-        <ref role="Ss6T5" node="7eyWL1Lfquk" resolve="plotNoLabel" />
+        <ref role="Ss6T5" node="4oDuG44ZilC" resolve="multi" />
         <node concept="Ss6Tf" id="4oDuG44Zhz3" role="Ss6Td" />
         <node concept="2jXUOv" id="4oDuG44ZhuP" role="2jX3UN">
           <property role="2jXUS1" value="MAplot.pdf" />
-        </node>
-      </node>
-      <node concept="SsgEw" id="4oDuG44ZiJ3" role="ZXjPg">
-        <property role="1MXi1$" value="GDEKYXJHEY" />
-        <ref role="Ss6T5" node="4oDuG44ZilC" resolve="multi" />
-        <node concept="Ss6Tf" id="4oDuG44ZiWy" role="Ss6Td" />
-        <node concept="2jXUOv" id="4oDuG44ZiJ7" role="2jX3UN">
-          <property role="2jXUS1" value="multi.pdf" />
         </node>
       </node>
     </node>
@@ -872,11 +864,21 @@
     <ref role="2YEjHW" node="1vtHRRvREAj" resolve="StyleWithAxesLabel" />
     <node concept="2Yu7i0" id="5_ScChB$7vu" role="2YPqp2">
       <property role="TrG5h" value="Title" />
-      <property role="2Yu1fB" value="QC for 2E4" />
+      <property role="2Yu1fB" value="QC with 0.5" />
+    </node>
+    <node concept="2Yur2j" id="5_ScChB$diu" role="2YPqp2">
+      <property role="TrG5h" value="X range" />
+      <property role="2Yum2S" value="1" />
+      <property role="2Yum2T" value="1" />
+    </node>
+    <node concept="2Yu$wc" id="5_ScChB$div" role="2YPqp2">
+      <property role="TrG5h" value="Y range" />
+      <property role="2Yum2S" value="1" />
+      <property role="2Yum2T" value="1" />
     </node>
     <node concept="Pt1pa" id="1vtHRRvRDp0" role="2YPqp2">
       <property role="TrG5h" value="GeneNameSize" />
-      <property role="2Yu1fB" value="2E4" />
+      <property role="2Yu1fB" value="2" />
     </node>
   </node>
 </model>

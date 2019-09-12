@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dab36bc6-7d11-411f-88f5-deaec322d6cb" name="Default Changelist" comment="Quality Control with MA plots.">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/QC/QC.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/QC/QC.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Styles/models/StyleHierarchy.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Styles/models/StyleHierarchy.mps" afterDir="false" />
     </list>
     <list id="be6a7c47-0518-49c1-a0f1-15d0aba5a1fd" name="Add readme and screenshot to QC." comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +100,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -135,7 +135,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -158,12 +158,26 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="359" />
-                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="31" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name1">
-                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/1719732383980104083" />
+                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT">
+                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/1719732383980104102" />
                     </cellInfo>
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                    <property name="role" value="elements" />
+                    <property name="modelId" value="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)" />
+                    <property name="firstNodeId" value="1719732383980104102" />
+                    <property name="parentNodeId" value="1719732383980104083" />
+                    <property name="lastNodeId" value="1719732383980104102" />
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                    <property name="role" value="elements" />
+                    <property name="modelId" value="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)" />
+                    <property name="firstNodeId" value="1719732383980104102" />
+                    <property name="parentNodeId" value="1719732383980104083" />
+                    <property name="lastNodeId" value="1719732383980104122" />
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
@@ -171,7 +185,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -194,11 +208,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="176" />
-                    <property name="caretXRelative" value="80" />
+                    <property name="caretX" value="168" />
+                    <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value">
-                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/6446958410835458014" />
+                    <cellInfo cellId="property_max">
+                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/6446958410835481758" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -207,7 +221,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -222,18 +236,58 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.plots/org.campagnelab.metar.plots.structure/GeneNameSize">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="selectionStart" value="38" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretX" value="503" />
+                    <property name="selectionEnd" value="43" />
+                    <property name="caretXRelative" value="320" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_conceptShortDescription">
+                      <node node_reference="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)/95082356240931500" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+              <node node_ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)/95082356240931500" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="mps://node://Styles/StyleHierarchy/StyleDemo">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="4">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretX" value="0" />
-                    <property name="caretXRelative" value="-657" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="55" />
+                    <property name="caretXRelative" value="40" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Table_3oqcxl_b0_row_1_lastCell">
-                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" />
+                    <cellInfo cellId="Constant_6ro1eg_a0">
+                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -246,15 +300,9 @@
                     </cellIdElement>
                   </collapsedElement>
                 </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="refNodeList_transformations">
-                      <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051543" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
+                <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -297,7 +345,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -333,7 +381,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -389,11 +437,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3111" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -575,27 +621,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="c6837d61-c342-4f12-9f06-0af092c62205" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:46dd0eb9-c876-4708-86d0-60bf4d4881a4(QCWithMAPlot) in IdeaFile[file:///Users/mas2182/WORK/CTSC/Projects/MetaR_demos/solutions/QC/models/QCWithMAPlot.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c6837d61-c342-4f12-9f06-0af092c62205" />
+              <option name="myItemId" value="deb9ca15-9274-4a7e-9cf8-21a562f604b3" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,7 +645,27 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="deb9ca15-9274-4a7e-9cf8-21a562f604b3" />
+              <option name="myItemId" value="c6837d61-c342-4f12-9f06-0af092c62205" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:46dd0eb9-c876-4708-86d0-60bf4d4881a4(QCWithMAPlot) in IdeaFile[file:///Users/mas2182/WORK/CTSC/Projects/MetaR_demos/solutions/QC/models/QCWithMAPlot.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c6837d61-c342-4f12-9f06-0af092c62205" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -778,14 +824,14 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3111" y="23" width="2560" height="1417" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25774425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09855951" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49444002" visible="true" weight="0.23020528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -801,15 +847,15 @@
       <window_info anchor="bottom" id="Usages" order="15" />
       <window_info anchor="bottom" id="Node Explorer" order="16" />
       <window_info anchor="bottom" id="Module Dependencies" order="17" />
-      <window_info anchor="bottom" id="Version Control" order="18" weight="0.3297953" />
+      <window_info anchor="bottom" id="Version Control" order="18" sideWeight="0.49960285" weight="0.3297953" />
       <window_info anchor="bottom" id="Generation Tracer" order="19" />
       <window_info anchor="bottom" id="Cell Explorer" order="20" />
-      <window_info anchor="bottom" id="Messages" order="21" weight="0.3297953" />
+      <window_info anchor="bottom" id="Messages" order="21" sideWeight="0.49483716" weight="0.3297953" />
       <window_info anchor="bottom" id="Shadow Models" order="22" />
       <window_info anchor="bottom" id="Console" order="23" />
       <window_info anchor="bottom" id="RefactoringView" order="24" />
-      <window_info anchor="bottom" id="Inspector" order="25" side_tool="true" />
-      <window_info anchor="bottom" id="MetaR Table Viewer" order="26" />
+      <window_info anchor="bottom" id="Inspector" order="25" sideWeight="0.50556" side_tool="true" visible="true" weight="0.23020528" />
+      <window_info anchor="bottom" id="MetaR Table Viewer" order="26" sideWeight="0.49960285" weight="0.3297953" />
       <window_info anchor="bottom" id="Dependencies Viewer" order="27" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -872,7 +918,8 @@
     <MESSAGE value="Differential Expression demo with Limma Vomm, data manipulation and heatmap plot." />
     <MESSAGE value="Rename Demos to DifferentialExpressions." />
     <MESSAGE value="Quality Control with MA plots." />
-    <option name="LAST_COMMIT_MESSAGE" value="Quality Control with MA plots." />
+    <MESSAGE value="Style hierarchy demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Style hierarchy demo." />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://Demos/DifferentialExpressionWithLimma/&lt;no name&gt;[Table]" />
@@ -998,7 +1045,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1031,7 +1078,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1065,7 +1112,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1079,18 +1126,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Styles/StyleHierarchy/StyleWithAxesLabel">
+    <entry file="mps://node://org.campagnelab.metar.plots/org.campagnelab.metar.plots.structure/GeneNameSize">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="359" />
-                <property name="caretXRelative" value="56" />
+                <property name="selectionStart" value="38" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretX" value="503" />
+                <property name="selectionEnd" value="43" />
+                <property name="caretXRelative" value="320" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name1">
-                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/1719732383980104083" />
+                <cellInfo cellId="property_conceptShortDescription">
+                  <node node_reference="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)/95082356240931500" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1099,7 +1148,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1110,6 +1159,7 @@
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
+          <node node_ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)/95082356240931500" />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1190,55 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Styles/StyleHierarchy/StyleWithAxesLabel">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT">
+                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/1719732383980104102" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                <property name="role" value="elements" />
+                <property name="modelId" value="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)" />
+                <property name="firstNodeId" value="1719732383980104102" />
+                <property name="parentNodeId" value="1719732383980104083" />
+                <property name="lastNodeId" value="1719732383980104102" />
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                <property name="role" value="elements" />
+                <property name="modelId" value="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)" />
+                <property name="firstNodeId" value="1719732383980104102" />
+                <property name="parentNodeId" value="1719732383980104083" />
+                <property name="lastNodeId" value="1719732383980104122" />
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1161,11 +1259,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="176" />
-                <property name="caretXRelative" value="80" />
+                <property name="caretX" value="168" />
+                <property name="caretXRelative" value="8" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value">
-                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/6446958410835458014" />
+                <cellInfo cellId="property_max">
+                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/6446958410835481758" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1174,7 +1272,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1191,14 +1289,15 @@
     <entry file="mps://node://Styles/StyleHierarchy/QC">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="4">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-657" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="55" />
+                <property name="caretXRelative" value="40" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Table_3oqcxl_b0_row_1_lastCell">
-                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" />
+                <cellInfo cellId="Constant_6ro1eg_a0">
+                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1211,15 +1310,9 @@
                 </cellIdElement>
               </collapsedElement>
             </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="refNodeList_transformations">
-                  <node node_reference="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051543" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
+            <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131068263" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:5b22340d-2862-496c-bec3-b2559f2ca917(StyleHierarchy)/5055707026131051542" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
