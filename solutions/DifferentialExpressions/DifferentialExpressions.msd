@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="Demos" uuid="e36c82f8-c3e9-423d-8707-e1c9b428252b" moduleVersion="0" compileInMPS="true">
+<solution name="DifferentialExpressions" uuid="e36c82f8-c3e9-423d-8707-e1c9b428252b" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -38,7 +38,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="e36c82f8-c3e9-423d-8707-e1c9b428252b(Demos)" version="0" />
+    <module reference="e36c82f8-c3e9-423d-8707-e1c9b428252b(DifferentialExpressions)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
