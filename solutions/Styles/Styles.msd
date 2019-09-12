@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="QC" uuid="c6837d61-c342-4f12-9f06-0af092c62205" moduleVersion="0" compileInMPS="true">
+<solution name="Styles" uuid="deb9ca15-9274-4a7e-9cf8-21a562f604b3" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">e393f1bd-a2a5-4809-bf1e-a3baeeaf4673(Solution)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -29,6 +32,7 @@
     <language slang="l:32f503e8-061b-451e-bcb0-fef56aa05eb9:org.campagnelab.metar.inspect" version="0" />
     <language slang="l:049ed9e7-0f0d-4814-a373-a4b21e15b59e:org.campagnelab.metar.limma" version="1" />
     <language slang="l:ecc862c9-5ab5-42ef-8703-2039019fb338:org.campagnelab.metar.models" version="1" />
+    <language slang="l:e6c108c3-0009-4034-b684-c506814ba197:org.campagnelab.metar.plots" version="0" />
     <language slang="l:5d6bde84-4ce4-4eb5-a37e-25a5edd55129:org.campagnelab.metar.tables" version="3" />
     <language slang="l:5ec1cd3d-0a50-4049-a8fa-ae768d7baa25:org.campagnelab.mps.XChart" version="0" />
     <language slang="l:ecf91126-e504-4aae-8ee7-3192d64e77f6:org.campagnelab.mps.XChart.types" version="0" />
@@ -44,7 +48,8 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-    <module reference="c6837d61-c342-4f12-9f06-0af092c62205(QC)" version="0" />
+    <module reference="e393f1bd-a2a5-4809-bf1e-a3baeeaf4673(Solution)" version="0" />
+    <module reference="deb9ca15-9274-4a7e-9cf8-21a562f604b3(Styles)" version="0" />
     <module reference="fdaaf35f-8ee3-4c37-b09d-9efaeaaa7a41(jetbrains.mps.core.tool.environment)" version="0" />
     <module reference="8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)" version="0" />
     <module reference="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" version="0" />
