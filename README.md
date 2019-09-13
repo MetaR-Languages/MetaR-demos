@@ -1,5 +1,5 @@
 ## Available Demos:
-* [Differential Expressions](solutions/solutions/DifferentialExpressions/)
+* [Differential Expressions](solutions/DifferentialExpressions/)
 * [Quality Control](solutions/QC/)
 * [Styles](solutions/Styles/)
  
