@@ -205,7 +205,7 @@
   </registry>
   <node concept="3Mpm39" id="10uFxk4w7eP">
     <property role="31Cu5t" value="&#9;" />
-    <property role="26T8KA" value="/Users/mas2182/WORK/CTSC/Projects/MetaR_demos/input-data/GSE59364_DC_all.csv" />
+    <property role="26T8KA" value="/Users/mas2182/Docs/GSE59364_DC_all.csv" />
     <property role="31JHgl" value="/Users/mas2182/WORK/CTSC/Projects/MetaR_demos/input-data/GSE59364_DC_all.csv" />
     <property role="TrG5h" value="GSE59364_DC_all.csv" />
     <node concept="31JHg8" id="5_ScChB$0Pt" role="31JHgj">
