@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/Histograms/Histograms.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/QC/QC.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Styles/Styles.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/UpSet/UpSet.msd" folder="" />
     </projectModules>
   </component>
 </project>
