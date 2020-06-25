@@ -10,11 +10,6 @@
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" />
   </imports>
   <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
-    </language>
     <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
       <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
         <property id="221363389440938160" name="ID" index="1MXi1$" />
@@ -33,16 +28,12 @@
       <concept id="3929971219796704543" name="org.campagnelab.metar.tables.structure.OutputFile" flags="ng" index="2jXUOv">
         <property id="3929971219796704769" name="path" index="2jXUS1" />
       </concept>
-      <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
-        <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
-      </concept>
       <concept id="8962032619593737384" name="org.campagnelab.metar.tables.structure.Statement" flags="ng" index="S1EQ7">
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
       <concept id="8962032619593737380" name="org.campagnelab.metar.tables.structure.Analysis" flags="ng" index="S1EQb">
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
-      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8013388156563171421" name="org.campagnelab.metar.tables.structure.PDF" flags="ng" index="Ss6Tf" />
       <concept id="8013388156563115186" name="org.campagnelab.metar.tables.structure.Render" flags="ng" index="SsgEw">
         <property id="7501650211371753390" name="height" index="165MyL" />
@@ -90,13 +81,6 @@
     <property role="TrG5h" value="UpSetDemo" />
     <node concept="ZXjPh" id="4dx6qFG_msR" role="S1EQ8">
       <property role="1MXi1$" value="LEGNYHNQRI" />
-      <node concept="nccVD" id="1c1rOX4Jh7k" role="ZXjPg">
-        <property role="S1EQ6" value="HVNJHXKIWL" />
-        <property role="1MXi1$" value="YQSHNCASDO" />
-        <node concept="3SKdUq" id="1c1rOX4Jh9u" role="nccZR">
-          <property role="3SKdUp" value="with defined gene lists:" />
-        </node>
-      </node>
       <node concept="3WoeC_" id="1c1rOX4_brs" role="ZXjPg">
         <property role="S1EQ6" value="FBFXJRGRAE" />
         <property role="1MXi1$" value="CKXBAEFIVK" />
@@ -141,10 +125,6 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="1c1rOX4HC5m" role="ZXjPg">
-        <property role="S1EQ6" value="MJALHTCKLM" />
-        <property role="1MXi1$" value="VOYYREUWTU" />
-      </node>
       <node concept="3WoeC_" id="4dx6qFG_jmO" role="ZXjPg">
         <property role="S1EQ6" value="GIQFJKYIKU" />
         <property role="1MXi1$" value="UJKKATVWSX" />
@@ -172,9 +152,6 @@
             <property role="3Wv0rF" value="GeneI" />
           </node>
         </node>
-      </node>
-      <node concept="S1EQe" id="4dx6qFG_jkL" role="ZXjPg">
-        <property role="1MXi1$" value="NLILSVJEUD" />
       </node>
       <node concept="1n$wJ6" id="1c1rOX4_bsz" role="ZXjPg">
         <property role="S1EQ6" value="EVLIXFBUOC" />
@@ -204,7 +181,7 @@
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="3ZMXzF" value="1" />
-          <property role="TrG5h" value="upsetR" />
+          <property role="TrG5h" value="preview" />
         </node>
         <node concept="31becx" id="4dx6qFG_miM" role="312phR">
           <property role="1MXi1$" value="AQDEYDAGKS" />

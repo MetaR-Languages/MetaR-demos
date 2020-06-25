@@ -21,9 +21,6 @@ if (!require("data.table")) {install.packages("data.table",repos='http://cran.us
 if (!require("dplyr")) {install.packages("dplyr",repos='http://cran.us.r-project.org'); library("dplyr")};
 
 
-#with defined gene lists:
-#empty line
-#empty line
 plot_QQLGAGXEWK<-function (table){
 FirstSet<-c("GeneA","GeneB","GeneC","GeneD")
 SecondSet<-c("GeneA","GeneB","GeneD","GeneE","GeneF","GeneG")
