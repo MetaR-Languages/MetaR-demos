@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dab36bc6-7d11-411f-88f5-deaec322d6cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="be6a7c47-0518-49c1-a0f1-15d0aba5a1fd" name="Add readme and screenshot to QC." comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="118">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -105,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="mps://node://UpSet/UpSet/UpSetDemo">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -137,18 +138,92 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Histograms/Histograms/HistogramsDemo">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="207" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="175" />
+                    <property name="caretXRelative" value="40" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_trycatch_enabled">
-                      <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454326" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/6446958410840076836" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_transformations">
+                      <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/6446958410840076835" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="refNodeList_transformations">
+                      <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/6446958410840076835" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Histograms/Histograms/GSE59364_DC_all.csv">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="118">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="15" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_3p37vj_a8a">
+                      <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable />
@@ -378,7 +453,7 @@
     <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="FileSystem" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -391,11 +466,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e36c82f8-c3e9-423d-8707-e1c9b428252b" />
+              <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:341a93dc-4d5d-40ad-b338-00f76f18d990(DifferentialExpressionWithLimma) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/DifferentialExpressions/models/DifferentialExpressionWithLimma.mps]" />
+              <option name="myItemId" value="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/UpSet/models/UpSet.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,18 +499,14 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/UpSet/models/UpSet.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,7 +530,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
+              <option name="myItemId" value="e36c82f8-c3e9-423d-8707-e1c9b428252b" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:341a93dc-4d5d-40ad-b338-00f76f18d990(DifferentialExpressionWithLimma) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/DifferentialExpressions/models/DifferentialExpressionWithLimma.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,15 +544,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
+              <option name="myItemId" value="14eda192-1207-486d-b1a3-8749e0d3d5c4" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/UpSet/models/UpSet.mps]" />
+              <option name="myItemId" value="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/Histograms/models/Histograms.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4855190095186454326" />
+              <option name="myItemId" value="1161557159201239989" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -704,12 +779,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="23" width="1174" height="663" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33480567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33480567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48303714" weight="0.36187845" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48144877" weight="0.36106196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -719,7 +795,7 @@
       <window_info anchor="bottom" id="Bookmarks" order="9" />
       <window_info anchor="bottom" id="Migration" order="10" />
       <window_info anchor="bottom" id="Menu Trace" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4090106" visible="true" weight="0.16283186" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.40812722" visible="true" weight="0.36460176" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5904685" side_tool="true" weight="0.3314917" />
       <window_info anchor="bottom" id="Classpath Explorer" order="14" />
       <window_info anchor="bottom" id="Usages" order="15" sideWeight="0.4992057" weight="0.3409091" />
@@ -728,11 +804,11 @@
       <window_info anchor="bottom" id="Version Control" order="18" sideWeight="0.49960285" weight="0.3297953" />
       <window_info anchor="bottom" id="Generation Tracer" order="19" />
       <window_info anchor="bottom" id="Cell Explorer" order="20" />
-      <window_info anchor="bottom" id="Messages" order="21" sideWeight="0.48303714" weight="0.3383978" />
+      <window_info anchor="bottom" id="Messages" order="21" sideWeight="0.48233217" weight="0.3380531" />
       <window_info anchor="bottom" id="Shadow Models" order="22" />
       <window_info anchor="bottom" id="Console" order="23" sideWeight="0.49960285" weight="0.3296355" />
       <window_info anchor="bottom" id="RefactoringView" order="24" />
-      <window_info active="true" anchor="bottom" id="Inspector" order="25" sideWeight="0.5909894" side_tool="true" visible="true" weight="0.16283186" />
+      <window_info anchor="bottom" id="Inspector" order="25" sideWeight="0.5918728" side_tool="true" visible="true" weight="0.36460176" />
       <window_info anchor="bottom" id="MetaR Table Viewer" order="26" sideWeight="0.49841145" weight="0.34017596" />
       <window_info anchor="bottom" id="Dependencies Viewer" order="27" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -803,7 +879,9 @@
     <MESSAGE value="UpSet demo." />
     <MESSAGE value="Document UpSet demo." />
     <MESSAGE value="Add citation on the README." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add citation on the README." />
+    <MESSAGE value="Scale UpSet picture." />
+    <MESSAGE value="List future demos." />
+    <option name="LAST_COMMIT_MESSAGE" value="List future demos." />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://InternalDemos/InternalDemos.tables/Hip-Rejuvenate-Blood.tsv" />
@@ -1102,13 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solutions/Styles/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1147,18 +1218,8 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="207" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_trycatch_enabled">
-                  <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454326" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+          <inspectorMemento currentlyEditedNode="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
@@ -1168,6 +1229,93 @@
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Histograms/Histograms/HistogramsDemo">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/6446958410840076836" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_transformations">
+                  <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/6446958410840076835" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_transformations">
+                  <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/6446958410840076835" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Histograms/Histograms/GSE59364_DC_all.csv">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="118">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_3p37vj_a8a">
+                  <node node_reference="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4c8e13a0-99cf-464c-b773-9b8f001d41f1(Histograms)/1161557159201239989" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -1,16 +1,17 @@
 ## Available Demos:
-* [Differential Expressions](solutions/DifferentialExpressions/)
+* Reorder Columns in a Table](solutions/DataManipulation)
+* Dataset Simulation (coming soon)
+* Differential Expressions with Limma Voom](solutions/DifferentialExpressions/)
 * [Quality Control](solutions/QC/)
 * [UpSet](solutions/UpSet/)
-* [Reorder Columns in a Table](solutions/DataManipulation)
+* Venn Diagram (coming soon)
 * Boxplot (coming soon)
 * Histogram (coming soon)
 * Heatmap (coming soon)
 * Scatter Plot (coming soon)
-* T-SNE plots (coming soon)
+* T-SNE Plot (coming soon)
 * [Styles](solutions/Styles/)
-* Dataset Simulation (coming soon)
- 
+
 ## Citation
 If you use MetaR in a paper, please cite:
 
