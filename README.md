@@ -1,7 +1,7 @@
 ## Available Demos:
-* Reorder Columns in a Table](solutions/DataManipulation)
+* [Reorder Columns in a Table](solutions/DataManipulation)
 * Dataset Simulation (coming soon)
-* Differential Expressions with Limma Voom](solutions/DifferentialExpressions/)
+* [Differential Expressions with Limma Voom](solutions/DifferentialExpressions/)
 * [Quality Control](solutions/QC/)
 * [UpSet](solutions/UpSet/)
 * Venn Diagram (coming soon)
