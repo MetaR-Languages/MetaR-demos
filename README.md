@@ -3,7 +3,13 @@
 * [Quality Control](solutions/QC/)
 * [UpSet](solutions/UpSet/)
 * [Reorder Columns in a Table](solutions/DataManipulation)
+* Boxplot (coming soon)
+* Histogram (coming soon)
+* Heatmap (coming soon)
+* Scatter Plot (coming soon)
+* T-SNE plots (coming soon)
 * [Styles](solutions/Styles/)
+* Dataset Simulation (coming soon)
  
 ## Citation
 If you use MetaR in a paper, please cite:
