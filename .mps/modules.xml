@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/DataManipulation/DataManipulation.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DifferentialExpressions/DifferentialExpressions.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Histograms/Histograms.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/QC/QC.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Styles/Styles.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
