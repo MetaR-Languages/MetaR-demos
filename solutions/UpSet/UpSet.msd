@@ -7,7 +7,6 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">1bd040b4-ebbe-4c05-8237-f1ef02996944(Solution)</dependency>
     <dependency reexport="false">e6c108c3-0009-4034-b684-c506814ba197(org.campagnelab.metar.plots)</dependency>
   </dependencies>
   <languageVersions>

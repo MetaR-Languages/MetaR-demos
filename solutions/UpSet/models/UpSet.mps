@@ -6,7 +6,6 @@
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
-    <import index="b35y" ref="r:619f3a58-4e3a-4b3c-9a86-33acb851680e(Solution.Figure3)" />
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" />
   </imports>
   <registry>
