@@ -6,12 +6,9 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab36bc6-7d11-411f-88f5-deaec322d6cb" name="Default Changelist" comment="Fix links.">
-      <change afterPath="$PROJECT_DIR$/solutions/UpSet/source_gen/UpSet/UpSetDemo_script.R" afterDir="false" />
+    <list default="true" id="dab36bc6-7d11-411f-88f5-deaec322d6cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/UpSet/UpSet.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/UpSet/UpSet.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/UpSet/models/UpSet.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/UpSet/models/UpSet.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/UpSet/source_gen.caches/UpSet/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/UpSet/source_gen.caches/UpSet/generated" afterDir="false" />
     </list>
     <list id="be6a7c47-0518-49c1-a0f1-15d0aba5a1fd" name="Add readme and screenshot to QC." comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +31,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="09687b4f-eab4-46e5-8eb6-ce33ff2fcea1/r:892aeb9d-9b31-41f7-9b03-d98759a7b43e(TempModule09687b4f-eab4-46e5-8eb6-ce33ff2fcea1/TempModel_332762321732)">
+            <model ref="6271f0ea-fd2c-4cf7-ae0c-f2c8037c1831/r:1105a5d3-0224-496f-8b9d-8c9d4d8bb1e8(TempModule6271f0ea-fd2c-4cf7-ae0c-f2c8037c1831/TempModel_55425377518485)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -54,11 +51,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4AeC7Wglffa">
-                <node concept="3balQm" id="4AeC7Wglffb" role="aymYE" />
-                <node concept="2Clz$F" id="4AeC7Wglffc" role="aymYO" />
-                <node concept="2_V_lH" id="4AeC7Wglffd" role="1PhJh3">
-                  <ref role="2_V_lI" node="4AeC7Wglffc" resolve="CommandHolder" />
+              <node concept="aymSD" id="5ZHxxwv3oNk">
+                <node concept="3balQm" id="5ZHxxwv3oNl" role="aymYE" />
+                <node concept="2Clz$F" id="5ZHxxwv3oNm" role="aymYO" />
+                <node concept="2_V_lH" id="5ZHxxwv3oNn" role="1PhJh3">
+                  <ref role="2_V_lI" node="5ZHxxwv3oNm" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -82,58 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="mps://node://UpSet/UpSet/UpSetDemo">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="23" />
-                    <property name="caretXRelative" value="8" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_u338ov_c0">
-                      <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454327" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="refNodeList_sets">
-                      <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/1369498147941037859" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="refNodeList_transformations">
-                      <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454327" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454327" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-                </enabledHints>
-              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -151,9 +101,14 @@
         <entry file="file://$PROJECT_DIR$/solutions/UpSet/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/UpSet/UpSet.msd">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -376,55 +331,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet) in IdeaFile[file:///Users/manuelesimi/CTSC/MetaR-demos/solutions/UpSet/models/UpSet.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="32193456-18c5-4d88-9a89-e7f99ecabe82" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <expand>
             <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
               <item name="" type="" />
             </path>
             <path>
@@ -468,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="R2 script.Script R HistogramsDemo">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -623,10 +546,9 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="106" y="23" width="1174" height="663" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3231018" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36572438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -640,7 +562,7 @@
       <window_info anchor="bottom" id="Bookmarks" order="9" />
       <window_info anchor="bottom" id="Migration" order="10" />
       <window_info anchor="bottom" id="Menu Trace" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.40547702" weight="0.36460176" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.40547702" visible="true" weight="0.37168142" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5904685" side_tool="true" weight="0.3314917" />
       <window_info anchor="bottom" id="Classpath Explorer" order="14" />
       <window_info anchor="bottom" id="Usages" order="15" sideWeight="0.4992057" weight="0.3409091" />
@@ -728,7 +650,8 @@
     <MESSAGE value="List future demos." />
     <MESSAGE value="More future demos." />
     <MESSAGE value="Fix links." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix links." />
+    <MESSAGE value="Update UpSet demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update UpSet demo." />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://InternalDemos/InternalDemos.tables/Hip-Rejuvenate-Blood.tsv" />
@@ -1022,39 +945,18 @@
     <entry file="mps://node://UpSet/UpSet/&lt;no name&gt;[Analysis]" />
     <entry file="mps://node://Histograms/Histograms/HistogramsDemo" />
     <entry file="mps://node://Histograms/Histograms/GSE59364_DC_all.csv" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/Styles/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solutions/UpSet/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://UpSet/UpSet/UpSetDemo">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="104">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="23" />
-                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="103" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_u338ov_c0">
-                  <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454327" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454326" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1074,7 +976,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454327" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ef06faca-14f8-4930-a241-fe15920b78b1(UpSet)/4855190095186454326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1087,6 +989,30 @@
           </inspectorMemento>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/Styles/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/UpSet/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/UpSet/UpSet.msd">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

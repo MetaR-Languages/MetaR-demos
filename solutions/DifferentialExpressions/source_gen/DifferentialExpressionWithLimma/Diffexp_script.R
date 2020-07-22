@@ -4,12 +4,12 @@
 #Script generated from Diffexp
 
 #Create installation dir for packages
-libDir <- "/Users/mas2182/.metaRlibs"
+libDir <- "/Users/manuelesimi/.metaRlibs"
 dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)
 .libPaths(c(libDir))
 
 #create the output dir
-dir.create(file.path("/Users/mas2182/temp/metaR_results/2"), showWarnings = FALSE, recursive = TRUE)
+dir.create(file.path("/Users/manuelesimi/MPSProjects/Stroke/temp-results"), showWarnings = FALSE, recursive = TRUE)
 if (!( require("limma")|require("edgeR") )) {
  if (!require("BiocInstaller")) { 
      source("http://bioconductor.org/biocLite.R", local=TRUE)  
@@ -86,7 +86,7 @@ setcolorder(default, newcols)
 # TODO: change the below line to use constrasts from the limmaVoom statement:
 results <<- data.table(topTable(fit3,coef=1, number=nrow(countsTable)))
 cat("STATEMENT_EXECUTED/NFULYHOFFB/\n")
-write.table(results,"/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/table_results_0.tsv", row.names=FALSE, sep="\t") 
+write.table(results,"/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/table_results_0.tsv", row.names=FALSE, sep="\t") 
 cat("STATEMENT_EXECUTED/NFULYHOFFB/\n");
 
 #empty line
@@ -112,7 +112,7 @@ joined <- data.table(joined)[,"gene":=joined$"genes"]
 
 
 GSE59364_DC_all.csv <- plyr::rename(GSE59364_DC_all.csv, c("genes"="gene"))
-write.table(joined,"/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/table_joined_0.tsv", row.names=FALSE, sep="\t") 
+write.table(joined,"/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/table_joined_0.tsv", row.names=FALSE, sep="\t") 
 cat("STATEMENT_EXECUTED/WCHSIDUDDH/\n");
 
 #empty line
@@ -121,20 +121,20 @@ subset <- joined[joined$"adj.P.Val" < 0.0001]
 if (nrow(subset)==0) {
   cat("Warning: Subset removed all rows of table joined. Following statements may fail if they expect results after filtering.\n")
 }
-write.table(subset,"/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/table_subset_0.tsv", row.names=FALSE, sep="\t") 
+write.table(subset,"/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/table_subset_0.tsv", row.names=FALSE, sep="\t") 
 
 cat("STATEMENT_EXECUTED/RFCTQOJIFN/\n");
 
 #empty line
 plot_QEGVPKFBDM=function(t)
 {
-LegendFrame=data.frame(c("LPS=no","LPS=no","LPS=no","LPS=yes","LPS=yes","LPS=yes","LPS=yes","LPS=no","LPS=yes","LPS=no","LPS=yes","LPS=yes","LPS=no","LPS=no"), c("B_DC","A_DC","C_DC","C3DCLPS","B_DC_LPS","A_DC_LPS","C_DC_LPS","C3DC","C2DCLPS","C2DC","DCLPS0910","DCLPS0913","DC0904","DC0907"))
+LegendFrame=data.frame(c("LPS=no","LPS=no","LPS=no","LPS=yes","LPS=yes","LPS=yes","LPS=yes","LPS=no","LPS=yes","LPS=no","LPS=yes","LPS=yes","LPS=no","LPS=no"), c("A_DC","B_DC","C_DC","C3DCLPS","A_DC_LPS","B_DC_LPS","C_DC_LPS","C3DC","C2DCLPS","C2DC","DCLPS0910","DCLPS0913","DC0904","DC0907"))
 
 colnames(LegendFrame)=c("Group","SampleId")
 # reorder by group name:
 LegendFrameSorted=LegendFrame[order(LegendFrame$Group,LegendFrame$SampleId),]
 rownames(LegendFrameSorted)=NULL
-sampleNames=c("B_DC","A_DC","C_DC","C3DC","C2DC","DC0904","DC0907","C3DCLPS","B_DC_LPS","A_DC_LPS","C_DC_LPS","C2DCLPS","DCLPS0910","DCLPS0913")
+sampleNames=c("A_DC","B_DC","C_DC","C3DC","C2DC","DC0904","DC0907","C3DCLPS","A_DC_LPS","B_DC_LPS","C_DC_LPS","C2DCLPS","DCLPS0910","DCLPS0913")
 MX<-data.matrix(subset(subset,  select=sampleNames))
 MX2<-MX
 #MX2=MX2[,order(LegendFrame$Group,LegendFrame$SampleId)]
@@ -146,7 +146,7 @@ annotations=data.frame(
 )
 
 
-#rownames(annotation)=c("B_DC", "A_DC", "C_DC", "C3DCLPS", "B_DC_LPS", "A_DC_LPS", "C_DC_LPS", "C3DC", "C2DCLPS", "C2DC", "DCLPS0910", "DCLPS0913", "DC0904", "DC0907")
+#rownames(annotation)=c("A_DC", "B_DC", "C_DC", "C3DCLPS", "A_DC_LPS", "B_DC_LPS", "C_DC_LPS", "C3DC", "C2DCLPS", "C2DC", "DCLPS0910", "DCLPS0913", "DC0904", "DC0907")
 rownames(MX2) = apply(subset(subset,select=c("genes")),1, function(x) x)
 as.data.frame(LegendFrameSorted[,-2]) -> legend
 row.names(legend)=LegendFrameSorted$SampleId
@@ -157,12 +157,12 @@ is.na(MX2) <- sapply(MX2, is.infinite)
 
 # Exclude NAs from table, they cause this cryptic error message: Error in do_one(nmeth) : NA/NaN/Inf in foreign function call 
 MX2<-MX2[complete.cases(MX2),]
-
+write.table(MX2, file = "/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/plot_QEGVPKFBDM_9.png.source.tsv",sep="\t")
 # Plot the heatmap:
 pheatmap(MX2,
          cluster_rows=TRUE,cluster_cols = FALSE,
          border_color="grey60", 
-         #filename = "/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/plot_QEGVPKFBDM_9.png",
+         #filename = "/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/plot_QEGVPKFBDM_9.png",
          color = colorRampPalette(c("#ffeda0","#feb24c","#f03b20"))(100), 
          clustering_distance_rows="manhattan",
          clustering_distance_cols="manhattan",
@@ -176,7 +176,7 @@ pheatmap(MX2,
 cat("STATEMENT_EXECUTED/QEGVPKFBDM/\n");
 
 }
-png(file="/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/plot_QEGVPKFBDM_9.png", width=400, height=200)
+png(file="/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/plot_QEGVPKFBDM_9.png", width=400, height=200)
 plot_QEGVPKFBDM(subset)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/QEGVPKFBDM/\n");
@@ -190,17 +190,17 @@ layout(matrix(c(1:1), byrow=TRUE, 1, 1), widths=c(400.0), heights=c(200.0))
 plot_QEGVPKFBDM(subset);
 }
 
-png(file="/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/plot_FJMSAJGNLW_11.png", width=400.0, height=200.0)
+png(file="/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/plot_FJMSAJGNLW_11.png", width=700, height=1300)
 plot_FJMSAJGNLW(null)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/FJMSAJGNLW/\n");
 
-pdf("/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/heatmap.pdf", width=6, height=4, onefile=FALSE )
+pdf("/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/heatmap.pdf", width=6, height=4, onefile=FALSE )
 plot_QEGVPKFBDM(subset)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/OQASODQNQK/\n");
 
-pdf("/Users/mas2182/temp/metaR_results/2/DifferentialExpressionWithLimma/multi.pdf", width=5.555555555555555, height=2.7777777777777777, onefile=FALSE )
+pdf("/Users/manuelesimi/MPSProjects/Stroke/temp-results/DifferentialExpressionWithLimma/multi.pdf", width=5.555555555555555, height=2.7777777777777777, onefile=FALSE )
 plot_FJMSAJGNLW(null)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/UKBYCTOIEQ/\n");

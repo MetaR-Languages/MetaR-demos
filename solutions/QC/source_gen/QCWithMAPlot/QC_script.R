@@ -4,12 +4,12 @@
 #Script generated from QC
 
 #Create installation dir for packages
-libDir <- "/Users/mas2182/.metaRlibs"
+libDir <- "/Users/manuelesimi/.metaRlibs"
 dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)
 .libPaths(c(libDir))
 
 #create the output dir
-dir.create(file.path("/Users/mas2182/temp/metaR_results/2"), showWarnings = FALSE, recursive = TRUE)
+dir.create(file.path("/Users/manuelesimi/MPSProjects/Stroke/temp-results"), showWarnings = FALSE, recursive = TRUE)
 if (!( require("limma")|require("edgeR") )) {
  if (!require("BiocInstaller")) { 
      source("http://bioconductor.org/biocLite.R", local=TRUE)  
@@ -84,7 +84,7 @@ setcolorder(default, newcols)
 # TODO: change the below line to use constrasts from the limmaVoom statement:
 results <<- data.table(topTable(fit3,coef=1, number=nrow(countsTable)))
 cat("STATEMENT_EXECUTED/OGEQXXIPPC/\n")
-write.table(results,"/Users/mas2182/temp/metaR_results/2/QCWithMAPlot/table_results_0.tsv", row.names=FALSE, sep="\t") 
+write.table(results,"/Users/manuelesimi/MPSProjects/Stroke/temp-results/QCWithMAPlot/table_results_0.tsv", row.names=FALSE, sep="\t") 
 cat("STATEMENT_EXECUTED/OGEQXXIPPC/\n");
 
 plot_DEYPWUSQJA<-function (table){
@@ -111,7 +111,7 @@ labels[labels_idx]<-table$"genes"[labels_idx]
 text(x=table$"AveExpr",y=table$"logFC",labels=labels,cex=0.5)
 }
  
-png("/Users/mas2182/temp/metaR_results/2/QCWithMAPlot/plot_DEYPWUSQJA_5.png",width=300,height=300)
+png("/Users/manuelesimi/MPSProjects/Stroke/temp-results/QCWithMAPlot/plot_DEYPWUSQJA_5.png",width=300,height=300)
 plot_DEYPWUSQJA(NULL)
 ignore<-dev.off()
  #empty line
@@ -119,7 +119,7 @@ ignore<-dev.off()
 plot_UEKOKOACDM<-function (table){
  
 table=results
-genelist<-c("5H9")
+genelist<-c("5H9", "A2LG", "A2M")
 inGeneList<-function (x){
 genes<-x$"genes"
 a<-genes%in%genelist
@@ -140,7 +140,7 @@ labels[labels_idx]<-table$"genes"[labels_idx]
 text(x=table$"AveExpr",y=table$"logFC",labels=labels,cex=0.5)
 }
  
-png("/Users/mas2182/temp/metaR_results/2/QCWithMAPlot/plot_UEKOKOACDM_1.png",width=300,height=300)
+png("/Users/manuelesimi/MPSProjects/Stroke/temp-results/QCWithMAPlot/plot_UEKOKOACDM_1.png",width=300,height=300)
 plot_UEKOKOACDM(NULL)
 ignore<-dev.off()
  #empty line
@@ -153,12 +153,12 @@ plot_DEYPWUSQJA();
 plot_UEKOKOACDM();
 }
 
-png(file="/Users/mas2182/temp/metaR_results/2/QCWithMAPlot/plot_TBDPLQOCCD_11.png", width=600.0, height=300.0)
+png(file="/Users/manuelesimi/MPSProjects/Stroke/temp-results/QCWithMAPlot/plot_TBDPLQOCCD_11.png", width=700, height=1300)
 plot_TBDPLQOCCD(null)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/TBDPLQOCCD/\n");
 
-pdf("/Users/mas2182/temp/metaR_results/2/QCWithMAPlot/MAplot.pdf", width=6, height=4, onefile=FALSE )
+pdf("/Users/manuelesimi/MPSProjects/Stroke/temp-results/QCWithMAPlot/MAplot.pdf", width=6, height=4, onefile=FALSE )
 plot_DEYPWUSQJA()
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/RTNPCFRWYV/\n");
